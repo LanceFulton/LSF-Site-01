@@ -1,0 +1,115 @@
+
+#about p {
+    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 1.15em;
+    font-weight: 300;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.navbar-default {
+	background-color: #000000;
+	border-color: transparent;
+}
+
+.navbar {
+    text-transform: none;
+    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.navbar-fixed-top .navbar-brand:hover {
+    color: #ff5050;
+}
+
+.navbar-fixed-top .navbar-brand:focus {
+    color: #ff5050;
+}
+
+#bs-example-navbar-collapse-1 a:hover {
+	color: #ff5050;
+}
+
+#bs-example-navbar-collapse-1 a:focus {
+	color: #ff5050;
+}
+
+header {
+    background: url(../img/background_03k.jpg);
+	background-size: 100% 100%;
+	height: 900px;
+}
+
+header .intro-text .name {
+	font-family: Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 100;
+    font-size: 7em;
+    text-transform: none;
+    margin-top: 40px;
+    /*margin-top: 100px;*/
+    margin-bottom: 50px;
+}
+
+header .intro-text .skills p {
+	font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: .7em;
+}
+
+.btn-outline:hover,
+.btn-outline:focus,
+.btn-outline:active,
+.btn-outline.active {
+    border: solid 2px #fff;
+    color: #ff5050;
+    background: #fff;
+}
+
+.btn-success:hover {
+	color: #ffffff;
+  	background-color: #ff5050;
+  	border-color: #ff5050;
+}
+
+.btn-success:focus {
+	background-color: #ff5050;
+}
+
+.navbar a:hover {
+	color: #ff5050;
+}
+
+.row h2 {
+	text-transform: none;
+	margin-bottom: 50px;
+	color: #333333;
+}
+
+section.success {
+    color: #333333;
+    background: #dadada;
+}
+
+.btn-success {
+  color: #333333;
+  background-color: #dadada;
+  border: 0px;
+}
+
+#portfolio .portfolio-item .portfolio-link .caption {
+    background: rgba(255,80,80,.9);
+    }
+
+.floating-label-form-group-with-focus label {
+    color: #ff5050;
+}
+
+footer .footer-below {
+    background-color: #dadada;
+    color: #333333;
+}
