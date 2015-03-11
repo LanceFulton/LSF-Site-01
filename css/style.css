@@ -3,6 +3,7 @@
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 1.15em;
     font-weight: 300;
+    text-align: justify;
 }
 
 h1,
@@ -11,37 +12,52 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+a {
+    color: #fff;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #8FB87F;
 }
 
 .navbar-default {
-	background-color: #000000;
+	background-color: #000;
 	border-color: transparent;
 }
 
 .navbar {
     text-transform: none;
-    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
-.navbar-fixed-top .navbar-brand:hover {
-    color: #ff5050;
+.navbar-fixed-top .navbar-brand {
+    font-weight: 700;
+    font-size: 2em;
+    color: #8FB87F;
 }
 
 .navbar-fixed-top .navbar-brand:focus {
-    color: #ff5050;
+    color: #8FB87F;
 }
 
-#bs-example-navbar-collapse-1 a:hover {
-	color: #ff5050;
+.navbar-fixed-top .navbar-brand:hover {
+    color: #fff;
 }
 
 #bs-example-navbar-collapse-1 a:focus {
-	color: #ff5050;
+	color: #FFF;
+}
+
+#bs-example-navbar-collapse-1 a:hover {
+    color: #8FB87F;
 }
 
 header {
-    background: url(../img/background_03k.jpg);
+    background: url(../img/background_04e.jpg);
 	background-size: 100% 100%;
 	height: 900px;
 }
@@ -49,43 +65,68 @@ header {
 header .intro-text .name {
 	font-family: Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 100;
-    font-size: 7em;
+    font-size: 4em;
     text-transform: none;
     margin-top: 40px;
-    /*margin-top: 100px;*/
     margin-bottom: 50px;
 }
 
 header .intro-text .skills p {
 	font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: .7em;
+    font-size: .6em;
+    color: #cfcfcf;
+}
+
+.intro-text {
+    background-color: rgba(0,0,0,0.75);
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.icons p {
+    margin-top: 50px;
+}
+
+.icons i {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.move-along p {
+    margin-top: 100px;
+}
+
+.move-along i {
+    color: rgba(355,355,355,.9);
+}
+
+.move-along i:hover {
+    color: rgba(355,355,355,.5);
+}
+
+.btn-outline {
+    color: #333333;
+    border-color: #333333;
+    border: solid 1px;
+    margin-top: 50px;
 }
 
 .btn-outline:hover,
 .btn-outline:focus,
 .btn-outline:active,
 .btn-outline.active {
-    border: solid 2px #fff;
-    color: #ff5050;
+    border: solid 1px #fff;
+    color: #A6C437;
     background: #fff;
 }
 
-.btn-success:hover {
-	color: #ffffff;
-  	background-color: #ff5050;
-  	border-color: #ff5050;
-}
-
-.btn-success:focus {
-	background-color: #ff5050;
-}
-
 .navbar a:hover {
-	color: #ff5050;
+	color: #A6C437;
 }
 
-.row h2 {
+.row h1 {
 	text-transform: none;
+    margin-top: 0px;
 	margin-bottom: 50px;
 	color: #333333;
 }
@@ -95,21 +136,23 @@ section.success {
     background: #dadada;
 }
 
-.btn-success {
-  color: #333333;
-  background-color: #dadada;
-  border: 0px;
+section.success a {
+    color: #000;
+}
+
+section.success a:hover {
+    color: #8FB87F;
 }
 
 #portfolio .portfolio-item .portfolio-link .caption {
-    background: rgba(255,80,80,.9);
+    background: rgba(143,184,127,.75);
     }
 
 .floating-label-form-group-with-focus label {
-    color: #ff5050;
+    color: #A6C437;
 }
 
 footer .footer-below {
-    background-color: #dadada;
+    background-color: #fff;
     color: #333333;
 }
