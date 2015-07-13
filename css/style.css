@@ -152,6 +152,14 @@ section.success a:hover {
     color: #000;
 }
 
+#about p {
+    font-family: "Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
+    font-weight: 100;
+    font-size: 1.3em;
+    text-align: justify;
+    color: #000;
+}
+
 .portfolio-container {
     display: flex;
     align-items: center;
