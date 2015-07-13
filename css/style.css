@@ -144,6 +144,14 @@ section.success a:hover {
     color: #8FB87F;
 }
 
+#portfolio p {
+    font-family: "Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
+    font-weight: 100;
+    font-size: 1.3em;
+    text-align: justify;
+    color: #000;
+}
+
 .portfolio-container {
     display: flex;
     align-items: center;
@@ -157,6 +165,7 @@ section.success a:hover {
 #portfolio .portfolio-item {
     height: 100%;
     margin: 0;
+    padding-left: 25px;
 }
 
 .portfolio-description {
@@ -170,6 +179,7 @@ section.success a:hover {
     font-family: "Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
     text-transform: none;
     font-weight: 100;
+    margin-bottom: 20px;
 }
 
 .floating-label-form-group-with-focus label {
@@ -193,5 +203,9 @@ footer .footer-below {
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-    background-color: #20361f;
+    background: none;
+    border: solid 1px #8FB87F;
+    margin-top: 9px;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
